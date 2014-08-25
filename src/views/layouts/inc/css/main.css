@@ -1,0 +1,39 @@
+body {
+	/*noinspection CssUnknownTarget*/
+	font-family: Trebuchet MS, sans-serif;
+}
+
+.navbar {
+	border-radius: 0;
+}
+
+.content {
+	padding: 15px;
+}
+
+.inner {
+	padding-bottom: 15px;
+}
+
+.error {
+	color: #ff0000;
+}
+
+.tableBtn, .actionBtn, .margin-likeTableBtn {
+	margin-right: 5px;
+}
+
+img.logo-icon {
+	width: 26px;
+	height: 26px;
+}
+
+.bb-alert {
+	position: fixed;
+	bottom: 25%;
+	right: 0;
+	margin-bottom: 0;
+	font-size: 1.2em;
+	padding: 1em 1.3em;
+	z-index: 2000;
+}

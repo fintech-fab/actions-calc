@@ -1,0 +1,28 @@
+{
+	"name": "fintech-fab/actions-calc",
+	"type": "service",
+	"description": "Calculate solutions for finance",
+	"license": "MIT",
+	"version": "0.1",
+	"authors": [
+		{
+			"name": "fintech-fab",
+			"email": "dev@fintech-fab.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"laravel/framework": ">=4.2"
+	},
+	"autoload": {
+		"classmap": [
+			"src/migrations",
+			"src/controllers",
+			"tests/FintechFab/ActionsCalc/CalcTestCase.php"
+		],
+		"psr-0": {
+			"FintechFab\\ActionsCalc\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
